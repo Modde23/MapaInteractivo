@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa de distancias</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="controls">
+        <p>Haz clic en el mapa para colocar los puntos deseados y calcular la distancia entre ellos, usa el boton de reinicio para eliminar tu seleccion.</p>
+        <div id="result">Distancia: -- km</div>
+        <div id="areaResult">Area: -- m²</div>
+        <input type="text" id="coordInput" placeholder="Latitud, Longitud" style="margin-top:10px; width:180px;">
+        <button id="addCoordBtn">Añadir coordenadas</button>
+        <button id="resetBtn">Reiniciar</button>
+        <button id="calculateAreaBtn">Calcular area</button>
+        <button id="resetAreaBtn">Reiniciar area</button>
+    </div>
+    <div id="map"></div>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-geometryutil@0.10.0/src/leaflet.geometryutil.min.js"></script>
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "name": "mapa-interactivo",
+  "version": "1.0.0",
+  "description": "Un proyecto que permite a los usuario marcar dos puntos para obtener la distancia geodesica entre ellos.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "live-server src"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "geolib": "^3.3.1"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "author": "",
+  "license": "ISC"
+}

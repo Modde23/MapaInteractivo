@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+}
+
+#controls {
+    padding: 10px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+#result {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px; 
+}
+
+#areaResult {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #1976d2;
+    font-weight: bold;
+}
+
+#calculateAreaBtn, #resetAreaBtn {
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+#calculateAreaBtn:disabled, #resetAreaBtn:disabled {
+    background-color: #b0bec5;
+    cursor: not-allowed;
+}
